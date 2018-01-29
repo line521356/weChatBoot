@@ -1,14 +1,14 @@
 import requests
 import itchat
 
-KEY = '换成你自己的key'
+KEY = '9e44ff190110468eb88d7de0446f14a5'
 
 def get_response(msg):
   apiUrl = 'http://www.tuling123.com/openapi/api'
   data = {
     'key'  : KEY,
     'info'  : msg,
-    'userid' : '换成你自己的账号',
+    'userid' : 'lucius_521356@163.com',
   }
   try:
     r = requests.post(apiUrl, data=data).json()
