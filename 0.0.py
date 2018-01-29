@@ -1,12 +1,17 @@
 import requests
 import itchat
 
-KEY = '9e44ff190110468eb88d7de0446f14a5'
+#撩妹
+LIAOMEI_KEY = '9e44ff190110468eb88d7de0446f14a5'
+
+WORK_key = 'cd7d60bae49848e992f0ed50480cb48d'
+
+LIGONG_key = 'c82b65af17dc44c6b1dd82de8abb0d85'
 
 def get_response(msg):
   apiUrl = 'http://www.tuling123.com/openapi/api'
   data = {
-    'key'  : KEY,
+    'key'  : LIAOMEI_KEY,
     'info'  : msg,
     'userid' : 'lucius_521356@163.com',
   }
